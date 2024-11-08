@@ -17,8 +17,8 @@ python.exe -m pip install --upgrade pip
 ```
 
 **3) Habilitar entorno virtual**
-En windows:
-Configuracion/Sistema/Para programadores/PowerShell --> Activado
+
+* En windows: Configuracion/Sistema/Para programadores/PowerShell --> Activado
 
 **4) Activar entorno virtual**
 ```
