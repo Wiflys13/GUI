@@ -24,6 +24,8 @@ python.exe -m pip install --upgrade pip
 
 **4) Activar entorno virtual**
 ```
+cd ..
+cd ..
 .\myenv\Scripts\Activate
 ```
 
