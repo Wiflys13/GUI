@@ -1,11 +1,11 @@
 #main_gui.py
 import customtkinter as ctk
-from pbs_tab import PBSTab
-from components_tab import ComponentsTab
-from orders_tab import OrdersTab
-from documents_tab import DocumentsTab
-from administration_tab import AdministrationTab
-from dashboard import DashboardTab
+from tabs.pbs_tab import PBSTab
+from tabs.components_tab import ComponentsTab
+from tabs.orders_tab import OrdersTab
+from tabs.documents_tab import DocumentsTab
+from tabs.administration_tab import AdministrationTab
+from tabs.dashboard import DashboardTab
 
 
 # Constantes para los títulos de las pestañas

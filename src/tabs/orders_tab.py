@@ -1,8 +1,5 @@
 # orders_tab.py
-import sys
-project_root = 'C:/Users/HARMONI/Documents/HARMONI/HRM_BBDD'
-sys.path.append(project_root)
-from config.config import URL_LOCAL, URL_VPN
+from config.config import URL_VPN
 import customtkinter as ctk
 from tkinter import ttk
 import tkinter as tk

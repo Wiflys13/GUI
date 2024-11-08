@@ -1,3 +1,5 @@
+# #documents_tab.py
+from config.config import URL_VPN
 import customtkinter as ctk
 import requests
 from tkinter import messagebox

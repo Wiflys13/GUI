@@ -1,5 +1,4 @@
-# dashboard.py
-
+# # dashboard.py
 import customtkinter as ctk
 import webview
 
@@ -25,6 +24,6 @@ if __name__ == "__main__":
 
 
 
-###### NOTAS PARA V.2:
+# ###### NOTAS PARA V.2:
 
-### Hacer Dashboard con PLOTLY
+# ### Hacer Dashboard con PLOTLY
