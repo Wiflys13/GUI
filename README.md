@@ -26,11 +26,11 @@ python.exe -m pip install --upgrade pip
 
 
 **4) Activate the virtual environment**
-For windows
+* On Windows
 ```
 .\myenv\Scripts\Activate 
 ```
-For Mac:
+* On MacOS:
 ```
 source ./myenv/bin/activate
 ```
