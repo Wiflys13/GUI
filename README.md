@@ -8,9 +8,12 @@
 * Descarga la versión adecuada para tu sistema operativo.
 * Asegúrate de seleccionar la opción "Add Python to PATH" durante la instalación.
 
-**2) En el directorio ./GUI activar el entorno virtual de Python**
+**2) Activar el entorno virtual de Python**
+En el directorio ./GUI
 ```
 python -m venv myenv
+cd .\myenv\Scripts
+python.exe -m pip install --upgrade pip
 ```
 
 **3) Habilitar entorno virtual**
