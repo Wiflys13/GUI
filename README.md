@@ -11,7 +11,8 @@
 * Asegúrate de seleccionar la opción "Add Python to PATH" durante la instalación.
 
 **2) Activar el entorno virtual de Python**
-En el directorio ./GUI
+> [!IMPORTANT]
+> En el directorio ./GUI
 ```
 python -m venv myenv
 cd .\myenv\Scripts
