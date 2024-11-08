@@ -27,7 +27,7 @@ Configuracion/Sistema/Para programadores/PowerShell --> Activado
 pip install -r requirements.txt
 ```
 
-**6) Crear y configurar .env
+**6) Crear y configurar .env**
 * Crea un archivo llamado .env en la raiz del directorio
 * Añade la siguiente linea ajustando la IP de la API
 
