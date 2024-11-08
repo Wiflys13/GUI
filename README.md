@@ -34,3 +34,5 @@ pip install -r requirements.txt
 ```
 API_IP = 000.000.0.000 # Reemplazar por la IP real de la API 
 ```
+
+**7) Ejecutar HARMONI**
