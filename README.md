@@ -5,7 +5,9 @@
 **1) Instalar Python desde el sitio oficial:**
 
 * Ve al sitio web de [Python](https://www.python.org/downloads/)
-* Descarga la versión adecuada para tu sistema operativo. La versión debe ser superior a 3.10
+* Descarga la versión adecuada para tu sistema operativo. 
+[!NOTE]
+La versión debe ser superior a 3.10
 * Asegúrate de seleccionar la opción "Add Python to PATH" durante la instalación.
 
 **2) Activar el entorno virtual de Python**
