@@ -1,46 +1,52 @@
 # Graphical User Interface for Harmoni (HRM-GUI)
 
-## Instalacion de la APP
+## Installation of the APP
 
-**1) Instalar Python desde el sitio oficial:**
+**1) Install Python from the official website:**
 
-* Ve al sitio web de [Python](https://www.python.org/downloads/)
-* Descarga la versión adecuada para tu sistema operativo. 
+* Go to the [Python](https://www.python.org/downloads/) website.
+* Download the appropriate version for your operating system.
 > [!NOTE]
-> La versión de python con la que esta desarrollado es 3.12
-* Asegúrate de seleccionar la opción "Add Python to PATH" durante la instalación.
+> Recommended version: 3.12
+* Make sure to select the "Add Python to PATH" option during installation.
 
-**2) Activar el entorno virtual de Python**
-> [!IMPORTANT]
-> En el directorio ./GUI
+**2) Activate the Python virtual environment**  
+> [!IMPORTANT]  
+> In the `./GUI` directory:
 ```
 python -m venv myenv
 cd .\myenv\Scripts
 python.exe -m pip install --upgrade pip
 ```
 
-**3) Habilitar entorno virtual**
+**3) Enable the virtual environment**
 
-* En windows: Configuracion/Sistema/Para programadores/PowerShell --> Activado
+* On Windows: Settings/System/For Developers/PowerShell --> Enabled
+* On Mac: Open Terminal and ensure you're using the correct shell (bash, zsh, etc.).
 
-**4) Activar entorno virtual**
+
+**4) Activate the virtual environment**
+For windows
 ```
-cd ..
-cd ..
-.\myenv\Scripts\Activate
+.\myenv\Scripts\Activate 
+```
+For Mac:
+```
+source ./myenv/bin/activate
 ```
 
-**5) Instalar las dependencias**
+**5) Install the dependencies**
+
 ```
 pip install -r requirements.txt
 ```
 
-**6) Crear y configurar .env**
-* Crea un archivo llamado .env en la raiz del directorio
-* Añade la siguiente linea ajustando la IP de la API
+**6) Create and configure the `.env` file**
+* Create a file named `.env` in the root directory.
+* Add the following line, adjusting the API IP address:
 
 ```
 API_IP = 000.000.0.000 # Reemplazar por la IP real de la API 
 ```
 
-**7) Ejecutar HARMONI**
+**7) Run HARMONI**
