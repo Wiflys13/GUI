@@ -1,4 +1,4 @@
-# Graphical User Interface for Harmoni APP
+# Graphical User Interface for Harmoni (HRM-GUI)
 
 ## Instalacion de la APP
 
