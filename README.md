@@ -56,5 +56,5 @@ API_IP = 000.000.0.000 # Reemplazar por la IP real de la API
 > Si se corrige: pyinstaller --onefile --noconsole main_gui.py
 
 ```
-pyinstaller --onefile --noconsole --paths=C:/local_project/src main_gui.py
+pyinstaller --onefile --noconsole --add-data "Y:/DATABASE/gui/src/tabs;tabs" main_gui.py
 ```

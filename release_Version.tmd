@@ -1,0 +1,13 @@
+Version 1.0
+
+Versión Ejecutable de Main_GUI.exe. 
+Se ha creado con Pyintaller. 
+
+Pruebas realizadas
+- Crear ejecutable desde entorno virtual en SAMBA - FUNCIONA
+- Crear ejecutable desde local y subirlo a SAMBA, sin crear el entorno virtual - FUNCIONA
+- Descargar el ejecutable en local y ejecutarlo - FUNCIONA
+- Ejecutar y hacer busqueda en Database con VPN desconectada
+
+Features
+- Securizar EndPoints de API
