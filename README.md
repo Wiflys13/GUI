@@ -49,4 +49,12 @@ pip install -r requirements.txt
 API_IP = 000.000.0.000 # Reemplazar por la IP real de la API 
 ```
 
-**7) Run HARMONI**
+**7) Create ejecutable - Pyinstaller
+
+> [!Note]
+> Tengo que añadir a mano los paths.
+> Si se corrige: pyinstaller --onefile --noconsole main_gui.py
+
+```
+pyinstaller --onefile --noconsole --paths=C:/local_project/src main_gui.py
+```
